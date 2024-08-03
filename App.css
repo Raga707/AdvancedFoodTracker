@@ -1,0 +1,109 @@
+body {
+  background-color: #fff8f0; /* Light pink background */
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #d16ba5; /* Cherry blossom pink */
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.add-food, .search-food, .daily-list {
+  background: #ffe0e6; /* Light pink background */
+  border: 2px solid #f7a8b8; /* Slightly darker pink border */
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+input {
+  padding: 10px;
+  margin: 5px;
+  font-size: 16px;
+  border: 1px solid #f7a8b8; /* Slightly darker pink border */
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #d16ba5; /* Cherry blossom pink */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #b85890; /* Darker cherry blossom pink */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #f7a8b8; /* Slightly darker pink border */
+  text-align: left;
+}
+
+th {
+  background-color: #ffe0e6; /* Light pink background */
+  color: #d16ba5; /* Cherry blossom pink */
+}
+
+tr:nth-child(even) {
+  background-color: #fff8f0; /* Lighter pink background */
+}
+
+.total-macros {
+  margin-top: 20px;
+  color: #d16ba5; /* Cherry blossom pink */
+}
+
+.total-macros p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.image-recognition {
+  margin: 20px;
+}
+
+.image-recognition img {
+  margin: 10px 0;
+}
+
+.image-recognition button {
+  padding: 10px 20px;
+  background-color: #d16ba5;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.image-recognition button:hover {
+  background-color: #b85890;
+}
+
+.image-recognition ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.image-recognition li {
+  margin: 5px 0;
+}
